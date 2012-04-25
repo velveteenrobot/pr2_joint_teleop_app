@@ -1,0 +1,12 @@
+<stack>
+  <description brief="pr2_joint_teleop_app">pr2_joint_teleop_app</description>
+  <author>Maintained by Applications Manager</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pr2_joint_teleop_app</url>
+  <depend stack="pr2_apps" /> <!-- pr2_position_scripts -->
+  <depend stack="pr2_hack_the_future" /> <!-- pr2_joint_teleop -->
+  <depend stack="ros" /> <!-- roslib -->
+  <depend stack="ros_comm" /> <!-- std_srvs, rospy -->
+
+</stack>

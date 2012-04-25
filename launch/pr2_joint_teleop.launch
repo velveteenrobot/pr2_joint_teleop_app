@@ -1,0 +1,8 @@
+<launch>
+
+   <node pkg="pr2_joint_teleop" type="pose2.py" name="pose" >
+      <remap from="joy" to="sliderJoy" />
+   </node>  
+
+</launch>
+

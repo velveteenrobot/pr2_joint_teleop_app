@@ -1,0 +1,18 @@
+<package>
+  <description brief="PR2 Joint Teleop">
+    Uses sliders to control Pr2's joints.
+  </description>
+  <author>Sarah Elliott</author>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/pr2_joint_teleop</url>
+  <review status="na" notes="" />
+  <depend package="roslib" />
+  <depend package="rospy" />
+  <depend package="pr2_hack_the_future" />
+  <depend package="pr2_position_scripts" />
+  <depend package="std_srvs" />
+  <depend package="topic_tools" />
+  <platform os="ubuntu" version="9.04"/>
+  <platform os="ubuntu" version="9.10"/>
+  <platform os="ubuntu" version="10.04"/>
+</package>
